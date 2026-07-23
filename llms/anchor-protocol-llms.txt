@@ -1,0 +1,21 @@
+# Anchor Protocol
+
+> Anchor Protocol is a Terra-based decentralized finance (DeFi) savings protocol offering a low-volatility yield on Terra stablecoin (UST) deposits, borrowing against bonded-asset (bAsset) collateral, and cross-chain access via EthAnchor/xAnchor. Its developer surface is JavaScript/TypeScript SDKs and on-chain CosmWasm smart contracts rather than a REST or OpenAPI web API. Backed by Pantera Capital. Note: the protocol is associated with the Terra ecosystem and its main web application deployment is currently disabled.
+
+## Developer documentation
+- [Anchor Protocol docs](https://docs.anchorprotocol.com/anchor-2): Developer documentation hub
+- [Smart contracts](https://docs.anchorprotocol.com/anchor-2/smart-contracts/deployed-contracts.md): Deployed CosmWasm contract addresses and interfaces
+- [Anchor.js SDK](https://docs.anchorprotocol.com/anchor-2/developers-terra/anchor.js.md): Terra client SDK guide
+- [Anchor Earn SDK](https://docs.anchorprotocol.com/anchor-2/developers-earn/anchor-earn-sdk.md): Savings-app SDK guide
+- [EthAnchor](https://docs.anchorprotocol.com/anchor-2/developers-ethereum/ethanchor.md): Access Anchor from Ethereum apps
+
+## SDKs and packages
+- [@anchor-protocol/anchor.js](https://www.npmjs.com/package/@anchor-protocol/anchor.js): Official JavaScript/TypeScript client SDK (npm)
+- [@anchor-protocol/anchor-earn](https://www.npmjs.com/package/@anchor-protocol/anchor-earn): Official Anchor Earn savings SDK (npm)
+
+## Source code
+- [Anchor-Protocol on GitHub](https://github.com/Anchor-Protocol): First-party GitHub organization
+
+## Artifacts in this profile
+- [Packages / SDKs](https://raw.githubusercontent.com/api-evangelist/anchor-protocol/refs/heads/main/packages/anchor-protocol-packages.yml): First-party SDK catalog
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/anchor-protocol/refs/heads/main/security/anchor-protocol-domain-security.yml): TLS/DNS/email-auth posture probe

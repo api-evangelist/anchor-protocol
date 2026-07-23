@@ -1,8 +1,26 @@
 aid: anchor-protocol
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anchor-protocol.png
 name: Anchor Protocol
-description: 'Anchor Protocol is a company surfaced as a portfolio company of pantera-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Anchor Protocol is a Terra-based decentralized finance (DeFi) savings
+  protocol that offered a low-volatility yield on Terra stablecoin (UST) deposits,
+  borrowing against bonded-asset (bAsset) collateral such as bLUNA and bETH, and
+  cross-chain access through EthAnchor and xAnchor. Its developer surface is a set
+  of first-party JavaScript/TypeScript SDKs (Anchor.js and Anchor Earn) plus on-chain
+  CosmWasm smart contracts rather than a REST or OpenAPI web API. The project is part
+  of the Terra ecosystem and is backed by Pantera Capital; its main web application
+  deployment is currently disabled, though its developer documentation and npm SDK
+  packages remain published.'
 url: https://raw.githubusercontent.com/api-evangelist/anchor-protocol/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +34,13 @@ modified: '2026-07-17'
 tags:
 - Company
 - Crypto
+- DeFi
+- Blockchain
+- Web3
+- Savings
+- Lending
+- Terra
+- Smart Contracts
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/anchor-protocol-domain-security.yml
 - type: Website
   url: https://anchorprotocol.com/
+- type: Documentation
+  url: https://docs.anchorprotocol.com/anchor-2
+- type: DeveloperPortal
+  url: https://docs.anchorprotocol.com/anchor-2
+- type: GitHubOrganization
+  url: https://github.com/Anchor-Protocol
+- type: SourceCode
+  url: https://github.com/Anchor-Protocol
+- type: Packages
+  url: packages/anchor-protocol-packages.yml
+- type: SDKs
+  url: packages/anchor-protocol-packages.yml
+- type: LLMsTxt
+  url: llms/anchor-protocol-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

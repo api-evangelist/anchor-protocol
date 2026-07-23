@@ -1,0 +1,29 @@
+generated: '2026-07-17'
+method: searched
+source: https://registry.npmjs.org/ (first-party @anchor-protocol npm org) + https://github.com/Anchor-Protocol
+packages:
+- language: javascript
+  registry: npm
+  name: "@anchor-protocol/anchor.js"
+  version: 5.1.1
+  url: https://www.npmjs.com/package/@anchor-protocol/anchor.js
+  repository: https://github.com/Anchor-Protocol/anchor.js
+  install: npm install @anchor-protocol/anchor.js
+  description: Client SDK for building applications that interact with Anchor Protocol
+    from JavaScript runtimes (browsers, server backends, React Native).
+  official: true
+- language: javascript
+  registry: npm
+  name: "@anchor-protocol/anchor-earn"
+  version: 2.0.0
+  url: https://www.npmjs.com/package/@anchor-protocol/anchor-earn
+  repository: https://github.com/Anchor-Protocol/anchor-earn
+  install: npm install @anchor-protocol/anchor-earn
+  description: SDK for building savings applications on top of Anchor Earn (deposit,
+    withdraw, balance, market queries).
+  official: true
+notes: Anchor Protocol is a Terra-based DeFi savings protocol; its developer surface
+  is JavaScript/TypeScript SDKs plus on-chain smart contracts, not a REST/OpenAPI API.
+  No first-party PyPI, Maven, NuGet, RubyGems, or crates.io packages were found. The
+  cross-chain EthAnchor/xAnchor tooling referenced in the docs is not published as a
+  standalone npm package under the @anchor-protocol org.
